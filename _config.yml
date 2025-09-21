@@ -1,7 +1,7 @@
 title: "Canada DevOps Community of Practice"
 description: "Canada's DevOps & GenAI Community, Hackathons, Open Source, Events"
 baseurl: "" # leave blank for root
-url: "https://CanadaDevOpsCommunity2025.github.io/CanadaDevOpsCommuntiyOfPractice.io"
+url: "https://CanadaDevOpsCommuntiyHackathonSeries.io"
 theme: minima # or pick another theme
 markdown: kramdown
 plugins:
