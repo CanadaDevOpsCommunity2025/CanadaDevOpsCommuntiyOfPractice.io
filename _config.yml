@@ -1,9 +1,20 @@
 title: "Canada DevOps Community of Practice"
 description: "Canada's DevOps & GenAI Community, Hackathons, Open Source, Events"
-baseurl: "" # leave blank for root
-url: "https://CanadaDevOpsCommunity2025.github.io/CanadaDevOpsCommuntiyOfPractice.io"
-theme: minima # or pick another theme
-markdown: kramdown
+url: "https://canadadevopscommunityofpracticehackathonseries.io"
+baseurl: ""
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-sitemap
+collections:
+  pages:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: "main"
