@@ -1,0 +1,36 @@
+<div class="sponsor-slider" style="margin: 2rem auto; max-width: 900px;">
+  <div class="slick-carousel">
+    <div><img src="/assets/images/newfound.svg" alt="Newfound Recruiting" style="height:70px;"></div>
+    <div><img src="/assets/images/opaque.svg" alt="OPAQUE Systems" style="height:70px;"></div>
+    <div><img src="/assets/images/aws.svg" alt="AWS" style="height:70px;"></div>
+    <div><img src="/assets/images/algonquin.svg" alt="Algonquin College" style="height:70px;"></div>
+    <div><img src="/assets/images/packt.svg" alt="Packt" style="height:70px;"></div>
+    <div><img src="/assets/images/oreilly.svg" alt="O'Reilly" style="height:70px;"></div>
+    <div><img src="/assets/images/crowdbyte.svg" alt="Crowdbyte Solutions Inc." style="height:70px;"></div>
+    <div><img src="/assets/images/pragra.svg" alt="Pragra" style="height:70px;"></div>
+    <div><img src="/assets/images/techstrong.svg" alt="Techstrong Group" style="height:70px;"></div>
+  </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css"/>
+<script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    if (window.jQuery && $('.slick-carousel').length) {
+      $('.slick-carousel').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: false,
+        responsive: [
+          { breakpoint: 768, settings: { slidesToShow: 2 } },
+          { breakpoint: 480, settings: { slidesToShow: 1 } }
+        ]
+      });
+    }
+  });
+</script>
