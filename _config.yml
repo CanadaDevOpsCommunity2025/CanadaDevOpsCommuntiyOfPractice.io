@@ -1,29 +1,42 @@
+# --- Site basics ---
 title: "Canada DevOps Community of Practice"
 email: info@canadadevops.org
 description: "Empowering DevOps practitioners in Canada through collaboration and innovation."
-baseurl: "/CanadaDevOpsCommuntiyOfPractice.io"
-url: "https://canadadevopscommunity2025.github.io"
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air" 
+url: "https://canadadevopscommunity2025.github.io"     # no trailing slash
+baseurl: "/CanadaDevOpsCommuntiyOfPractice.io"         # must match repo name exactly
+
+# --- Theme ---
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"      # pin a working release
+minimal_mistakes_skin: "air"                            # color scheme
+
+# --- Plugins (only what GH Pages supports) ---
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Navigation
-navigation:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Events"
-    url: /events/
-  - title: "Community"
-    url: /community/
-  - title: "Sponsors"
-    url: /sponsors/
-  - title: "Contact"
-    url: /contact/
-  - title: "Join"
-    url: /join/
+# --- Permalinks & Markdown niceties (optional but recommended) ---
+permalink: /:categories/:title/
+markdown: kramdown
 
-logo: "/assets/logo.png" # Place your logo here
+# --- Collections to support /_pages folder (optional, tidy) ---
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# --- Defaults: apply layout + sidebar nav to pages ---
+defaults:
+  - scope:
+      path: ""           # all files
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: "main"      # will refer to _data/navigation.yml → main:
+
+# --- Masthead logo (works with Minimal Mistakes) ---
+logo: "/assets/logo.png"
+
+# --- Footer/social (fill when ready) ---
+author:
+  name: "Canada DevOps CoP"
