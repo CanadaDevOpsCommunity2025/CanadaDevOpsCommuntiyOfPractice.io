@@ -1,7 +1,7 @@
 ---
-title: "Community"
 layout: single
-author_profile: true
+title: "Community"
+permalink: /community/
 ---
 
 <nav class="ortelius-nav">
