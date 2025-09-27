@@ -1,6 +1,7 @@
 ---
 title: "Canada DevOps Community of Practice"
-layout: default
+layout: home
+author_profile: true
 ---
 
 <nav class="ortelius-nav">
