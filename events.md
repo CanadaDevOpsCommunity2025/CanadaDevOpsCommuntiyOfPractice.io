@@ -1,6 +1,7 @@
 ---
 title: "Events"
-layout: page
+layout: splash
+author_profile: true
 ---
 
 <nav class="ortelius-nav">
