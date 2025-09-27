@@ -11,12 +11,12 @@ author_profile: true
       <span>Canada DevOps Community</span>
     </a>
     <div class="nav-links">
-      <a href="about.md">About</a>
-      <a href="events.md">Events</a>
-      <a href="community.md">Community</a>
-      <a href="sponsors.md">Sponsors</a>
-      <a href="contact.md">Contact</a>
-      <a href="join.md" class="nav-cta">Join</a>
+      <a href="/about/">About</a>
+      <a href="/events/">Events</a>
+      <a href="/community/">Community</a>
+      <a href="/sponsors/">Sponsors</a>
+      <a href="/contact/">Contact</a>
+      <a href="/join/" class="nav-cta">Join</a>
     </div>
   </div>
 </nav>
