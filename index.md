@@ -1,14 +1,13 @@
 ---
 title: "Canada DevOps Community of Practice"
-layout: home
-author_profile: true
+layout: default
 ---
 
-<nav class="ortelius-nav">
+<!-- NAVIGATION BAR AT TOP -->
+<nav class="custom-nav">
   <div class="nav-container">
-    <a href="index.md" class="nav-logo">
-      <img src="assets/logo.png" alt="Canada DevOps Logo" />
-      <span>Canada DevOps Community</span>
+    <a href="/" class="nav-logo">
+      <img src="/assets/logo.png" alt="Canada DevOps Logo" />
     </a>
     <div class="nav-links">
       <a href="/about/">About</a>
@@ -21,11 +20,14 @@ author_profile: true
   </div>
 </nav>
 
+<!-- MAIN CONTENT BELOW NAVIGATION -->
 <section class="hero">
   <h1>Canada DevOps Community of Practice</h1>
-  <p>Welcome to Canada's leading network for DevOps and AI innovation.<br>
-  Accelerate learning, foster collaboration, and drive transformation in software delivery and platform engineering.</p>
-  <a href="join.md" class="nav-cta">Join Now</a>
+  <p>
+    Welcome to Canada's leading network for DevOps and AI innovation.<br>
+    Accelerate learning, foster collaboration, and drive transformation in software delivery and platform engineering.
+  </p>
+  <a href="/join/" class="nav-cta">Join Now</a>
 </section>
 
 <section class="main-sections">
@@ -35,7 +37,7 @@ author_profile: true
       Canada DevOps Community of Practice is a movement connecting technologists, developers, engineers, and builders across Canada.<br>
       We host hackathons, meetups, and open-source projects—shaping the future of DevOps and Generative AI.
     </p>
-    <a href="about.md" class="section-link">Learn More</a>
+    <a href="/about/" class="section-link">Learn More</a>
   </div>
   <div class="section-block">
     <h2>Hackathon Highlights</h2>
@@ -51,10 +53,10 @@ author_profile: true
   </div>
   <div class="section-block">
     <h2>Sponsors</h2>
-    <a href="sponsors.md" class="section-link">Meet Our Sponsors</a>
+    <a href="/sponsors/" class="section-link">Meet Our Sponsors</a>
     <div style="margin-top:10px;">
-      <img src="assets/sponsor1.png" alt="Sponsor 1" style="height:48px; margin:0 10px;">
-      <img src="assets/sponsor2.png" alt="Sponsor 2" style="height:48px; margin:0 10px;">
+      <img src="/assets/sponsor1.png" alt="Sponsor 1" style="height:48px; margin:0 10px;">
+      <img src="/assets/sponsor2.png" alt="Sponsor 2" style="height:48px; margin:0 10px;">
     </div>
   </div>
 </section>
