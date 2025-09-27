@@ -1,7 +1,7 @@
 ---
+layout: single
 title: "Events"
-layout: splash
-author_profile: true
+permalink: /events/
 ---
 
 <nav class="ortelius-nav">
