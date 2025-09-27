@@ -1,7 +1,7 @@
 ---
+layout: single
 title: "Join"
-layout: splash
-author_profile: true
+permalink: /join/
 ---
 
 <nav class="ortelius-nav">
