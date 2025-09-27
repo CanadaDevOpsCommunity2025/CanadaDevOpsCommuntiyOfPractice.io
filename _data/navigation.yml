@@ -1,9 +1,15 @@
 main:
   - title: "Home"
     url: /
-  - title: "About Us"
+  - title: "About"
     url: /about/
-  - title: "Getting Involved"
-    url: /getting-involved/
-  - title: "Hackathon Series"
-    url: /hackathon-series/
+  - title: "Events"
+    url: /events/
+  - title: "Community"
+    url: /community/
+  - title: "Sponsors"
+    url: /sponsors/
+  - title: "Contact"
+    url: /contact/
+  - title: "Join"
+    url: /join/
