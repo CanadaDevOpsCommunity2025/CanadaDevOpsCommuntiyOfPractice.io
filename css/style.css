@@ -1,53 +1,75 @@
-body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  background: #f7f9fb;
-  color: #222;
-  margin: 0;
-  padding: 0;
-}
-
-.main-nav {
-  background: linear-gradient(90deg, #005fa3 70%, #0199c7 100%);
-  padding: 0.5em 0;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0 2px 8px #e0e0e0;
+.ortelius-nav {
+  background: linear-gradient(90deg, #1a237e 60%, #00bcd4 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   position: sticky;
   top: 0;
   z-index: 1000;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
-
-.main-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.5em 1.2em;
-  border-radius: 4px;
-  transition: background 0.2s, color 0.2s;
-  font-size: 1.1em;
-}
-
-.main-nav a:hover, .main-nav a:focus {
-  background: #ff9800;
-  color: #fff;
-}
-
-header {
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  background: #fff;
-  padding: 24px 40px 24px 40px;
-  box-shadow: 0 2px 8px #e0e0e0;
-  margin-bottom: 24px;
+  justify-content: space-between;
+  padding: 0.5em 2em;
 }
-
-header img {
-  height: 60px;
-  margin-right: 20px;
+.nav-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
-
-header h1 {
-  font-size: 2.2em;
-  color: #005fa3;
-  margin: 0;
+.nav-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+.nav-logo span {
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.4em 0.9em;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+  font-size: 1.07em;
+}
+.nav-links a:not(.nav-cta):hover, .nav-links a:not(.nav-cta):focus {
+  background: rgba(255,255,255,0.13);
+  color: #ffe082;
+}
+.nav-cta {
+  background: #ff9800;
+  color: #fff !important;
+  font-weight: bold;
+  margin-left: 1em;
+  padding: 0.45em 1.2em;
+  border-radius: 20px;
+  box-shadow: 0 1px 6px rgba(255,152,0,0.14);
+  transition: background 0.2s;
+}
+.nav-cta:hover, .nav-cta:focus {
+  background: #ffb74d;
+  color: #1a237e !important;
+}
+@media (max-width: 800px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.8em 1em;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 0.7em;
+    margin-top: 0.7em;
+  }
 }
