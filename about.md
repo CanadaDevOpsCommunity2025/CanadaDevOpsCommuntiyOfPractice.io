@@ -1,17 +1,30 @@
 ---
-title: "About Us"
+title: "About"
 layout: page
 ---
 
-<img src="assets/logo.png" alt="Canada DevOps Logo" style="height:60px; float:left; margin-right:20px;">
+<nav class="ortelius-nav">
+  <div class="nav-container">
+    <a href="index.md" class="nav-logo">
+      <img src="assets/logo.png" alt="Canada DevOps Logo" />
+      <span>Canada DevOps Community</span>
+    </a>
+    <div class="nav-links">
+      <a href="about.md">About</a>
+      <a href="events.md">Events</a>
+      <a href="community.md">Community</a>
+      <a href="sponsors.md">Sponsors</a>
+      <a href="contact.md">Contact</a>
+      <a href="join.md" class="nav-cta">Join</a>
+    </div>
+  </div>
+</nav>
 
-## Who We Are
-
-Canada DevOps Community of Practice is dedicated to connecting, educating, and empowering DevOps professionals across Canada.
-
-Our mission:
-- Foster collaboration among technologists, developers, and engineers
-- Accelerate innovation in DevOps and AI
-- Host events, meetups, and open-source projects
-
-[Home](index.md) | [Events](events.md) | [Community](community.md) | [Sponsors](sponsors.md) | [Contact](contact.md)
+<section class="about-section">
+  <h2>Who We Are</h2>
+  <p>
+    Canada DevOps Community of Practice is dedicated to connecting, educating, and empowering DevOps professionals across Canada.<br>
+    Our mission is to foster collaboration, learning, and innovation in DevOps and AI.<br>
+    Founded in 2025, our community includes practitioners, advocates, and organizations shaping the future of DevOps.
+  </p>
+</section>
