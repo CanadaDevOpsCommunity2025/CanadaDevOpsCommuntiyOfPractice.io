@@ -8,22 +8,6 @@ header:
   caption: "Accelerate learning, foster collaboration, and drive transformation in software delivery and platform engineering."
 ---
 
-<!-- NAVIGATION BAR AT TOP -->
-<nav class="custom-nav">
-  <div class="nav-container">
-    <a href="/" class="nav-logo">
-      <img src="/assets/logo.png" alt="Canada DevOps Logo" />
-    </a>
-    <div class="nav-links">
-      <a href="/about/">About</a>
-      <a href="/events/">Events</a>
-      <a href="/community/">Community</a>
-      <a href="/sponsors/">Sponsors</a>
-      <a href="/contact/">Contact</a>
-      <a href="/join/" class="nav-cta">Join</a>
-    </div>
-  </div>
-</nav>
 
 <!-- MAIN CONTENT BELOW NAVIGATION -->
 <section class="hero">
