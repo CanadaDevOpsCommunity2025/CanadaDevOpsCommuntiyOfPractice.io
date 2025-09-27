@@ -1,7 +1,7 @@
 ---
+layout: single
 title: "Contact"
-layout: splash
-author_profile: true
+permalink: /contact/
 ---
 
 <nav class="ortelius-nav">
