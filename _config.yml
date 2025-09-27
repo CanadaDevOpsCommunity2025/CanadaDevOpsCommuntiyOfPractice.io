@@ -3,10 +3,11 @@ email: info@canadadevops.org
 description: "Empowering DevOps practitioners in Canada through collaboration and innovation."
 baseurl: "" # leave blank for user/organization site
 url: "https://canadadevopscommunity2025.github.io/CanadaDevOpsCommuntiyOfPractice.io"
-remote_theme: "mmistakes/minimal-mistakes@gh-pages"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Navigation
 navigation:
