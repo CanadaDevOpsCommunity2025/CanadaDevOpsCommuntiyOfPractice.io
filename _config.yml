@@ -2,7 +2,7 @@ title: "Canada DevOps Community of Practice"
 description: "Canada's DevOps & GenAI Community, Hackathons, Open Source, Events"
 url: "https://canadadevopscommunityofpracticehackathonseries.io"
 baseurl: ""
-remote_theme: "mmistakes/minimal-mistakes@4.13.0"
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
