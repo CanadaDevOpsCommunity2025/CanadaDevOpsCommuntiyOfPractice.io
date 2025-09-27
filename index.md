@@ -2,7 +2,7 @@
 title: "Canada DevOps Community of Practice"
 layout: default
 ---
-<link rel="stylesheet" href="css/style.css">
+
 <nav class="ortelius-nav">
   <div class="nav-container">
     <a href="index.md" class="nav-logo">
@@ -19,33 +19,41 @@ layout: default
     </div>
   </div>
 </nav>
-<img src="assets/logo.png" alt="Canada DevOps Logo" style="height:90px; float:left; margin-right:30px;">
 
-# Canada DevOps Community of Practice
+<section class="hero">
+  <h1>Canada DevOps Community of Practice</h1>
+  <p>Welcome to Canada's leading network for DevOps and AI innovation.<br>
+  Accelerate learning, foster collaboration, and drive transformation in software delivery and platform engineering.</p>
+  <a href="join.md" class="nav-cta">Join Now</a>
+</section>
 
-Welcome to Canada's leading network for DevOps and AI innovation.  
-Accelerate learning, foster collaboration, and drive transformation in software delivery and platform engineering.
-
----
-
-## About Us
-
-Canada DevOps Community of Practice is a movement connecting technologists, developers, engineers, and builders across Canada.
-
-We host hackathons, meetups, and open-source projects—shaping the future of DevOps and Generative AI.
-
----
-
-## Hackathon Highlights
-
-**Previous Winner:**  
-Ottawa Hackathon (June 2, 2025):  
-[AICommunityofPractice_Observability](https://github.com/CanadaDevOpsCommunity2025/AICommunityofPractice_Observability)
-
-**Upcoming Hackathon:**  
-Toronto, November 3, 2025  
-[Register here](https://lnkd.in/gTC24_5P)
-
----
-
-[About Us](about.md) | [Events](events.md) | [Community](community.md) | [Sponsors](sponsors.md) | [Contact](contact.md)
+<section class="main-sections">
+  <div class="section-block">
+    <h2>About Us</h2>
+    <p>
+      Canada DevOps Community of Practice is a movement connecting technologists, developers, engineers, and builders across Canada.<br>
+      We host hackathons, meetups, and open-source projects—shaping the future of DevOps and Generative AI.
+    </p>
+    <a href="about.md" class="section-link">Learn More</a>
+  </div>
+  <div class="section-block">
+    <h2>Hackathon Highlights</h2>
+    <p>
+      <strong>Previous Winner:</strong><br>
+      Ottawa Hackathon (June 2, 2025):<br>
+      <a href="https://github.com/CanadaDevOpsCommunity2025/AICommunityofPractice_Observability">AICommunityofPractice_Observability</a>
+      <br><br>
+      <strong>Upcoming Hackathon:</strong><br>
+      Toronto, November 3, 2025<br>
+      <a href="https://lnkd.in/gTC24_5P">Register here</a>
+    </p>
+  </div>
+  <div class="section-block">
+    <h2>Sponsors</h2>
+    <a href="sponsors.md" class="section-link">Meet Our Sponsors</a>
+    <div style="margin-top:10px;">
+      <img src="assets/sponsor1.png" alt="Sponsor 1" style="height:48px; margin:0 10px;">
+      <img src="assets/sponsor2.png" alt="Sponsor 2" style="height:48px; margin:0 10px;">
+    </div>
+  </div>
+</section>
