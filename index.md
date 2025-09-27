@@ -1,6 +1,11 @@
 ---
+layout: home
 title: "Canada DevOps Community of Practice"
-layout: default
+excerpt: "Welcome to Canada's leading network for DevOps and AI innovation."
+header:
+  overlay_image: /assets/hero-bg.jpg # Optional background image
+  overlay_filter: 0.3 # darken background
+  caption: "Accelerate learning, foster collaboration, and drive transformation in software delivery and platform engineering."
 ---
 
 <!-- NAVIGATION BAR AT TOP -->
