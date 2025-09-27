@@ -2,6 +2,7 @@
 title: "Canada DevOps Community of Practice"
 layout: default
 ---
+<link rel="stylesheet" href="css/style.css">
 <nav class="ortelius-nav">
   <div class="nav-container">
     <a href="index.md" class="nav-logo">
