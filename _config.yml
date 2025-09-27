@@ -4,7 +4,6 @@ description: "Empowering DevOps practitioners in Canada through collaboration an
 baseurl: "" # leave blank for user/organization site
 url: "https://canadadevopscommunity2025.github.io/CanadaDevOpsCommuntiyOfPractice.io"
 remote_theme: "mmistakes/minimal-mistakes"
-
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
