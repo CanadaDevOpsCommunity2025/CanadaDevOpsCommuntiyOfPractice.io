@@ -1,6 +1,7 @@
 ---
+layout: single
 title: "About"
-layout: page
+permalink: /about/
 ---
 
 <nav class="custom-nav">
