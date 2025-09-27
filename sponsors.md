@@ -7,9 +7,7 @@ author_profile: true
 <nav class="ortelius-nav">
   <div class="nav-container">
     <a href="index.md" class="nav-logo">
-      <img src="assets/logo.png" alt="Canada DevOps Logo" />
-      
-    </a>
+      <img src="assets/logo.png" alt="Canada DevOps Logo" /></a>
     <div class="nav-links">
       <a href="about.md">About</a>
       <a href="events.md">Events</a>
