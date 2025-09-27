@@ -9,6 +9,7 @@ layout: page
       <img src="/assets/logo.png" alt="Canada DevOps Logo" />
     </a>
     <div class="nav-links">
+
       <a href="/about/">About</a>
       <a href="/events/">Events</a>
       <a href="/community/">Community</a>
