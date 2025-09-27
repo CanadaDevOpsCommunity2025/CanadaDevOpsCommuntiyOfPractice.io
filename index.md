@@ -3,6 +3,16 @@ title: "Canada DevOps Community of Practice"
 layout: default
 ---
 
+<nav class="main-nav">
+  <a href="index.md">Home</a>
+  <a href="about.md">About</a>
+  <a href="events.md">Events</a>
+  <a href="community.md">Community</a>
+  <a href="sponsors.md">Sponsors</a>
+  <a href="contact.md">Contact</a>
+  <a href="join.md">Join</a>
+</nav>
+
 <img src="assets/logo.png" alt="Canada DevOps Logo" style="height:90px; float:left; margin-right:30px;">
 
 # Canada DevOps Community of Practice
