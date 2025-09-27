@@ -8,7 +8,7 @@ author_profile: true
   <div class="nav-container">
     <a href="index.md" class="nav-logo">
       <img src="assets/logo.png" alt="Canada DevOps Logo" />
-      <span>Canada DevOps Community</span>
+      
     </a>
     <div class="nav-links">
       <a href="about.md">About</a>
