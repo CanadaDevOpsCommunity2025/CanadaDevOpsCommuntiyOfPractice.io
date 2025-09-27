@@ -1,3 +1,5 @@
 title: "Canada DevOps Community of Practice"
 description: "Empowering DevOps practitioners in Canada through collaboration and innovation."
-theme: jekyll-theme-cayman
+remote_theme: "mmistakes/minimal-mistakes@latest"
+plugins:
+  - jekyll-remote-theme
