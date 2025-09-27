@@ -1,6 +1,7 @@
 ---
 title: "Sponsors"
-layout: page
+layout: single
+author_profile: true
 ---
 
 <nav class="ortelius-nav">
