@@ -26,8 +26,5 @@ navigation:
   - title: "Join"
     url: /join/
 
-# Minimal Mistakes settings
-logo: "/assets/logo.png"
+logo: "/assets/logo.png" # Place your logo here
 minimal_mistakes_skin: "default"
-atom_feed:
-  path: "/feed.xml"
