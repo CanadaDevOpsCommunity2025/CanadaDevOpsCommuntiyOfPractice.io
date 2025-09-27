@@ -1,7 +1,7 @@
 ---
-title: "Sponsors"
 layout: single
-author_profile: true
+title: "Sponsors"
+permalink: /sponsors/
 ---
 
 <nav class="ortelius-nav">
