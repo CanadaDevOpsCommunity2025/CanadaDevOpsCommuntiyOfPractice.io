@@ -16,6 +16,8 @@ $button-color: $brand;
 /* 3) Load the theme */
 @import "minimal-mistakes";
 
+.page__hero--overlay { min-height: 64vh; }
+@media (min-width: 1024px) { .page__hero--overlay { min-height: 72vh; } }
 /* 4) Header (masthead) styling that matches your logo */
 .masthead,
 .greedy-nav {                     /* nav bar */
