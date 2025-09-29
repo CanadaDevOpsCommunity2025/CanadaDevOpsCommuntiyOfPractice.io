@@ -1,5 +1,5 @@
 ---
-layout: head
+layout: home
 title: "Canada DevOps Community of Practice"
 excerpt: "Empowering DevOps practitioners in Canada through collaboration and innovation."
 header:
