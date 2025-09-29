@@ -7,7 +7,7 @@ baseurl: "/CanadaDevOpsCommuntiyOfPractice.io"         # must match repo name ex
 
 # --- Theme ---
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"      # pin a working release
-minimal_mistakes_skin: "aqua"                            # color scheme
+minimal_mistakes_skin: "air"                            # color scheme
 
 # --- Plugins (only what GH Pages supports) ---
 plugins:
