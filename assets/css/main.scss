@@ -1,0 +1,41 @@
+---
+# keep this front matter so Liquid runs in SCSS
+---
+
+/* 1) Pick your brand color (from your logo) */
+$brand: #0B5CAB;      // ← replace with your logo color
+$brand-contrast: #fff; // use #111 if your brand is very light
+
+/* 2) Load your chosen skin first (from _config.yml → minimal_mistakes_skin) */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+/* (Optional) Pass brand into common accents/links/buttons */
+$link-color: $brand;
+$button-color: $brand;
+
+/* 3) Load the theme */
+@import "minimal-mistakes";
+
+/* 4) Header (masthead) styling that matches your logo */
+.masthead,
+.greedy-nav {                     /* nav bar */
+  background: $brand;
+}
+
+/* Title + nav link colors for contrast */
+.site-title,
+.site-title a,
+.greedy-nav .visible-links a,
+.masthead__menu-item {
+  color: $brand-contrast !important;
+}
+
+/* Hover/active states */
+.greedy-nav .visible-links a:hover,
+.site-title a:hover {
+  color: mix($brand-contrast, #fff, 70%) !important;
+  border-color: mix($brand-contrast, #fff, 70%) !important;
+}
+.greedy-nav .visible-links .active > a {
+  border-bottom-color: $brand-contrast !important;
+}
