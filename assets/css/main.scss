@@ -5,9 +5,9 @@
 @import "skins/custom-muted-blue";
 @import "minimal-mistakes";
 
-/* Shrink the header height on home */
+/* Smaller header for home */
 .layout--home .page__hero--overlay {
-  min-height: 30vh;   /* try 25–35vh for subtle look */
+  min-height: 28vh;   /* adjust: 25–32vh */
   padding: 2rem 0;
 }
 
@@ -32,9 +32,6 @@
 .button.button--outline { border-color: $brand-accent; color: $brand-accent; }
 .button.button--outline:hover { background-color: rgba(74,144,226,.08); }
 
-/* Hero height (optional) */
-.page__hero--overlay { min-height: 64vh; }
-@media (min-width: 1024px) { .page__hero--overlay { min-height: 72vh; } }
 
 /* Footer subtle border */
 .page__footer { border-top: 1px solid $border-color; }
