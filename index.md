@@ -1,8 +1,14 @@
 ---
-layout: splash
+layout: home
 title: "Canada DevOps Community of Practice"
+excerpt: "Empowering DevOps practitioners in Canada through collaboration and innovation."
 author_profile: false
-classes: wide
+
+header:
+  overlay_image: "{{ site.baseurl }}/assets/hero/muted-blue-gradient-hero.svg"   # your background image
+  overlay_filter: 0.25        # adjust between 0.2–0.4 for subtle darkening
+  overlay_color: "#2A2A2A"    # fallback background color
+  caption: "Empowering DevOps practitioners in Canada through collaboration and innovation."
 ---
 
 
