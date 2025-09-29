@@ -5,6 +5,12 @@
 @import "skins/custom-muted-blue";
 @import "minimal-mistakes";
 
+/* Shrink the header height on home */
+.layout--home .page__hero--overlay {
+  min-height: 30vh;   /* try 25–35vh for subtle look */
+  padding: 2rem 0;
+}
+
 /* Header (masthead) */
 .masthead,
 .greedy-nav { background: $brand-ink; }
