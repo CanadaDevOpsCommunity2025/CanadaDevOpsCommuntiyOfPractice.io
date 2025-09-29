@@ -21,6 +21,7 @@ header:
   <p>
     <a class="btn btn--primary" href="{{ site.baseurl }}/join/">Join the Community</a>
     <a class="btn" href="{{ site.baseurl }}/events/">Explore Events</a>
+    <a class="btn" href="https://github.com/CanadaDevOpsCommunity2025" target="_blank" rel="noopener">GitHub</a>
   </p>
 </section>
 
