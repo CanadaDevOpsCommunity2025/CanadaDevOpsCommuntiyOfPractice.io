@@ -21,7 +21,11 @@ header:
   <p>
     <a class="btn btn--primary" href="{{ site.baseurl }}/join/">Join the Community</a>
     <a class="btn" href="{{ site.baseurl }}/events/">Explore Events</a>
-    <a class="btn" href="https://github.com/CanadaDevOpsCommunity2025" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://github.com/CanadaDevOpsCommunity2025" target="_blank" rel="noopener" aria-label="GitHub">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+           alt="GitHub"
+           style="height:28px; width:28px; margin-left:8px; vertical-align:middle;">
+    </a>
   </p>
 </section>
 
