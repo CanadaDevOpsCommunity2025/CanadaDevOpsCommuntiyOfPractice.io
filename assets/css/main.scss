@@ -1,0 +1,49 @@
+---
+# assets/css/main.scss
+---
+
+@import "skins/custom-canada-devops";
+@import "minimal-mistakes";
+
+/* Header (masthead) */
+.masthead,
+.greedy-nav { background: $brand-ink; }
+
+.site-title,
+.site-title a,
+.greedy-nav .visible-links a,
+.masthead__menu-item { color: #fff !important; }
+
+.greedy-nav .visible-links a:hover,
+.site-title a:hover {
+  color: lighten(#ffffff, 8%) !important;
+  border-color: lighten(#ffffff, 12%) !important;
+}
+
+.greedy-nav .visible-links .active > a {
+  border-bottom-color: #fff !important;
+}
+
+/* Primary buttons & links */
+.btn--primary,
+.button.button--primary {
+  background-color: $brand-accent;
+  color: #fff;
+  border: none;
+}
+.btn--primary:hover,
+.button.button--primary:hover {
+  background-color: $brand-accent-2;
+  color: #fff;
+}
+
+/* Feature rows */
+.feature__item .archive__item-title a { color: $brand-ink; }
+.feature__item .archive__item-excerpt a { color: $brand-accent; }
+
+/* Hero height */
+.page__hero--overlay { min-height: 64vh; }
+@media (min-width: 1024px) { .page__hero--overlay { min-height: 72vh; } }
+
+/* Footer */
+.page__footer { border-top: 1px solid $border-color; }
