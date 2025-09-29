@@ -1,11 +1,11 @@
 ---
-layout: home
+layout: splash
 title: "Canada DevOps Community of Practice"
 excerpt: "Empowering DevOps practitioners in Canada through collaboration and innovation."
 header:
-  overlay_image: /CanadaDevOpsCommuntiyOfPractice.io/assets/hero/mesh-network-hero.svg
+  overlay_image: /CanadaDevOpsCommuntiyOfPractice.io/assets/hero/warm-waves-hero.svg
   overlay_filter: 0.35
-  overlay_color: "#0B5CAB"
+  overlay_color: "#2F2F2F"
   actions:
     - label: "Join the Community"
       url: /CanadaDevOpsCommuntiyOfPractice.io/join/
