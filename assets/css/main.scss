@@ -1,0 +1,34 @@
+---
+# assets/css/main.scss
+---
+
+@import "skins/custom-muted-blue";
+@import "minimal-mistakes";
+
+/* Header (masthead) */
+.masthead,
+.greedy-nav { background: $brand-ink; }
+.site-title,
+.site-title a,
+.greedy-nav .visible-links a,
+.masthead__menu-item { color: #fff !important; }
+.greedy-nav .visible-links .active > a { border-bottom-color: #fff !important; }
+
+/* Primary buttons & links */
+.btn--primary, .button.button--primary {
+  background-color: $brand-accent; color: #fff; border: none;
+}
+.btn--primary:hover, .button.button--primary:hover {
+  background-color: $brand-accent-2; color: #fff;
+}
+
+/* Secondary buttons */
+.button.button--outline { border-color: $brand-accent; color: $brand-accent; }
+.button.button--outline:hover { background-color: rgba(74,144,226,.08); }
+
+/* Hero height (optional) */
+.page__hero--overlay { min-height: 64vh; }
+@media (min-width: 1024px) { .page__hero--overlay { min-height: 72vh; } }
+
+/* Footer subtle border */
+.page__footer { border-top: 1px solid $border-color; }
