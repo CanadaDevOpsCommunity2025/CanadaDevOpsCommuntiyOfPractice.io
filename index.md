@@ -7,7 +7,7 @@ classes: wide
 
 # Small, subtle header background
 header:
-  overlay_image: "{{ '/assets/hero/subtle-header-gradient-texture.svg' | relative_url }}"
+  overlay_image: "{{ '/assets/hero/mesh-network-hero.svg' | relative_url }}"
   overlay_filter: 0.25
 ---
 
