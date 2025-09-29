@@ -9,7 +9,6 @@ classes: wide
 header:
   overlay_image: "{{ '/assets/hero/subtle-header-gradient-texture.svg' | relative_url }}"
   overlay_filter: 0.25
-  overlay_color: "#2A2A2A"
 ---
 
 <!-- Intro / value prop -->
