@@ -35,3 +35,13 @@
 
 /* Footer subtle border */
 .page__footer { border-top: 1px solid $border-color; }
+
+/* Fallback: force a header background for home */
+.layout--home .page__hero--overlay {
+  background-image: url("{{ '/assets/hero/subtle-header-gradient-texture.svg' | relative_url }}") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 28vh;
+  padding: 2rem 0;
+}
