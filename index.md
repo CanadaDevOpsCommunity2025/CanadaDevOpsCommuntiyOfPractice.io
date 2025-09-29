@@ -5,7 +5,7 @@ excerpt: "Empowering DevOps practitioners in Canada through collaboration and in
 author_profile: false
 
 header:
-  overlay_image: "{{ site.baseurl }}/assets/hero/subtle-header-gradient-texture.svg"
+  overlay_image: "{{ site.url }}{{ site.baseurl }}/assets/hero/subtle-header-gradient-texture.svg"
   overlay_filter: 0.25
   overlay_color: "#2A2A2A"
 ---
