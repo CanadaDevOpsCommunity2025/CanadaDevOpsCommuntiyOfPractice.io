@@ -6,10 +6,9 @@ url: "https://canadadevopscommunity2025.github.io"     # no trailing slash
 baseurl: "/CanadaDevOpsCommuntiyOfPractice.io"         # must match repo name exactly
 
 # --- Theme ---
-remote_theme: "daattali/beautiful-jekyll"
 
-#remote_theme: "mmistakes/minimal-mistakes@4.27.3"      # pin a working release
-#minimal_mistakes_skin: ""                            # color scheme
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"      # pin a working release
+minimal_mistakes_skin: "contrast"                            # color scheme
 
 # --- Plugins (only what GH Pages supports) ---
 plugins:
