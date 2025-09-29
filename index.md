@@ -1,17 +1,19 @@
 ---
-layout: splash    # or 'single'
+layout: splash
 title: "Canada DevOps Community of Practice"
 excerpt: "Empowering DevOps practitioners in Canada through collaboration and innovation."
+
 header:
   overlay_image: "{{ site.baseurl }}/assets/hero/muted-blue-geo-hero.svg"
-  overlay_filter: 0.35       # 0–0.6; raise if text is hard to read
-  overlay_color: "#2A2A2A"   # fallback color if image fails
+  overlay_filter: 0.35         # 0 (none) to ~0.6
+  overlay_color: "#2A2A2A"     # fallback color if image fails
   actions:
     - label: "Join the Community"
       url: "{{ site.baseurl }}/join/"
     - label: "Events"
       url: "{{ site.baseurl }}/events/"
 ---
+
 
 
 <!-- MAIN CONTENT BELOW NAVIGATION -->
