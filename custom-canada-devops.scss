@@ -1,0 +1,29 @@
+// _sass/skins/custom-canada-devops.scss
+// Palette: Charcoal + Terracotta + Ivory
+$brand-ink: #2F2F2F !default;    // charcoal
+$brand-accent: #E07A5F !default; // terracotta
+$brand-accent-2: #C15E47 !default; // darker terracotta for hover/active
+$brand-bg: #FAF5F0 !default;     // ivory
+
+// Core theme vars (Minimal Mistakes-compatible)
+$background-color:        $brand-bg !default;
+$page-background-color:   $brand-bg !default;
+$text-color:              #1E1E1E !default;
+$muted-text-color:        mix(#1E1E1E, #FFFFFF, 65%) !default;
+$border-color:            rgba(#000, .08) !default;
+
+// Links & accents
+$link-color:              $brand-accent !default;
+$link-color-hover:        $brand-accent-2 !default;
+
+// Code blocks
+$code-background-color:   #F4EEE8 !default;
+$code-border-color:       rgba(#000, .06) !default;
+
+// Buttons
+$btn-primary-color:       $brand-accent !default;
+$btn-primary-text-color:  #FFFFFF !default;
+
+// Tables / cards
+$table-header-bg-color:   #F2EAE3 !default;
+$card-border-color:       rgba(#000, .08) !default;
