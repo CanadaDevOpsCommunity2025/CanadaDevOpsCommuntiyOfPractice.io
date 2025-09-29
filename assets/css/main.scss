@@ -6,7 +6,7 @@
 @import "minimal-mistakes";
 
 .layout--home .page__hero--overlay {
-  background-image: url("{{ 'assets/hero/mesh-network-hero.svg' | relative_url }}") !important;
+  background-image: url("{{ '/assets/hero/mesh-network-hero.svg' | relative_url }}") !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
