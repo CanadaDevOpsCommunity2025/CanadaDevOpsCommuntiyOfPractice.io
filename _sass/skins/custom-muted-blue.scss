@@ -1,0 +1,30 @@
+// _sass/skins/custom-muted-blue.scss
+// Palette: Charcoal + Muted Blue + Ivory
+$brand-ink: #2A2A2A !default;      // header/nav background
+$brand-accent: #4A90E2 !default; // primary accent (links, buttons)
+$brand-accent-2: darken(#4A90E2, 8%) !default; // hover
+$brand-bg: #FAF9F7 !default;          // page background
+$brand-soft: #D7CCC8 !default;        // subtle borders / table heads
+$brand-alt: #3C8D90 !default;          // secondary accent (rarely)
+
+$background-color:        $brand-bg !default;
+$page-background-color:   $brand-bg !default;
+$text-color:              #1F1F1F !default;
+$muted-text-color:        mix(#1F1F1F, #FFFFFF, 65%) !default;
+$border-color:            rgba(#000, .08) !default;
+
+// Links & accents
+$link-color:              $brand-accent !default;
+$link-color-hover:        $brand-accent-2 !default;
+
+// Code blocks
+$code-background-color:   #F4F2EE !default;
+$code-border-color:       rgba(#000, .06) !default;
+
+// Buttons
+$btn-primary-color:       $brand-accent !default;
+$btn-primary-text-color:  #FFFFFF !default;
+
+// Tables / cards
+$table-header-bg-color:   $brand-soft !default;
+$card-border-color:       rgba(#000, .08) !default;
