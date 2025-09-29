@@ -1,16 +1,16 @@
 ---
-layout: home
+layout: home    # or 'single'
 title: "Canada DevOps Community of Practice"
 excerpt: "Empowering DevOps practitioners in Canada through collaboration and innovation."
 header:
-  overlay_image: /CanadaDevOpsCommuntiyOfPractice.io/assets/hero/muted-blue-geo-hero.svg
-  overlay_filter: 0.35
-  overlay_color: "#2F2F2F"
+  overlay_image: "{{ site.baseurl }}/assets/hero/muted-blue-geo-hero.svg"
+  overlay_filter: 0.35       # 0–0.6; raise if text is hard to read
+  overlay_color: "#2A2A2A"   # fallback color if image fails
   actions:
     - label: "Join the Community"
-      url: /CanadaDevOpsCommuntiyOfPractice.io/join/
+      url: "{{ site.baseurl }}/join/"
     - label: "Events"
-      url: /CanadaDevOpsCommuntiyOfPractice.io/events/
+      url: "{{ site.baseurl }}/events/"
 ---
 
 
